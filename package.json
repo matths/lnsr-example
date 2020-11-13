@@ -1,0 +1,21 @@
+{
+  "name": "lnsr-example",
+  "version": "1.0.0",
+  "description": "basic example using lnsr queue and filters to run a node server",
+  "main": "commonjs/index.js",
+  "module": "esm/index.mjs",
+  "scripts": {
+    "start-commonjs": "node commonjs/index.js",
+    "start-esm": "node esm/index.mjs",
+    "start": "npm run start-commonjs"
+  },
+  "author": "Matthias Dittgen <dittgen@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matths/lnsr-example.git"
+  },
+  "dependencies": {
+    "lnsr": "^1.0.0"
+  }
+}
